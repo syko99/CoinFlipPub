@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Flipper</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="coin__card">
+        <div class="score">
+            <p id="numHeads">Heads: 0</p>
+            <p id="numTails">Tails: 0</p>
+        </div>
+        <div class="coin">
+            <div class="coin__heads">
+                <img src="Coinflip-images/head-coin.svg" alt="">
+            </div>
+            <div class="coin__tails">
+                <img src="Coinflip-images/tail-coin.svg" alt="">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="flip__button">
+                FLIP
+            </button>
+            <button id="reset__button">
+                RESET
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
